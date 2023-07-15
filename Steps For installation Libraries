@@ -1,0 +1,22 @@
+Speaker AI Project With Open AI
+First we need to install openai in your pycharm project through:
+•	Pip install openai
+Then go to the openai website and then open API User keys generate your secret API Key
+and the paste it to the openai.key parser. 
+The link of OpenAI API Keys is given below:
+•	https://platform.openai.com/account/api-keys
+
+ 
+Then go to OpenAI Models Link that is given below:
+•	https://platform.openai.com/docs/models/gpt-4
+Select one of the models and then paste it to the model variable in python file.
+ 
+After Selecting your model go to that link completions OpenAI:
+•	https://platform.openai.com/docs/api-reference/completions/create
+Then copy the format of that model and paste it to the python file and make changes to Complete the completion criteria.
+ 
+For checking your response create a variable and at index 0 print your response. Run the code in terminal and enter any question. 
+Now for voice we add speechRecognition and other audio modules in our project we will install
+•	Pip install SpeechRecognition
+•	Pip install pyaudio
+•	Pip install pyttsx3
