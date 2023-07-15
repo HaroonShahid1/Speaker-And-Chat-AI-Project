@@ -4,7 +4,7 @@ import pyttsx3
 
 engine = pyttsx3.init()
 listener = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = "Enter Your Account API Key"
 
 def process_speech():
     with sr.Microphone() as source:
